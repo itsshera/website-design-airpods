@@ -291,8 +291,8 @@ img {
 }
 
 .details__box {
-  margin-bottom: 2.5rem;
-  text-align: center;
+  margin-bottom: 2rem;
+  text-align: right;
 }
 
 .details__initial {
@@ -375,7 +375,8 @@ img {
         grid-template-columns: min-content;
     -ms-grid-rows: 80% 10%;
         grid-template-rows: 80% 10%;
-        grid-template-areas: "data img" "scroll scroll";
+        grid-template-areas: "data img"
+ "scroll scroll";
     -ms-flex-line-pack: end;
         align-content: flex-end;
     -webkit-box-pack: center;
